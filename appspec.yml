@@ -1,7 +1,7 @@
 version: 0.0
 os: linux
 files:
-  - source: /test
+  - source: /app
     destination: /opt/bitnami/apache2/htdocs/test
 hooks:
   ApplicationStart:
